@@ -2172,7 +2172,7 @@ var CreatableSelect = function (_React$Component) {
 						valueKey: this.valueKey
 					});
 
-					filteredOptions.unshift(this._createPlaceholderOption);
+					filteredOptions.push(this._createPlaceholderOption);
 				}
 			}
 
